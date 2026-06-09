@@ -8,7 +8,8 @@ void push(){
     if(top==MAX-1){
         cout<<"stack full";
         return ;
-    }else{
+    }
+    else{
         int x;
         cout<<"enter the value to be pushed:";
         cin>>x;
